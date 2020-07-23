@@ -2,11 +2,18 @@ body {
     font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.main_thing {
+    height: vmax;
+    width: vmax;
+    background-color: lightgray;
+}
+
 .main_title {
     height: 465px;
     width: 80%;
     margin-left: 5px;
     margin-top: 5px;
+    background-color: white;
 }
 .title {
     height: 5px;
@@ -56,24 +63,31 @@ body {
 .c{
     height:200px;
     width: 100%;
-    background: rgb(243, 243, 243);
-
     position: relative;
+    background-color: lightgray;
 }
 
 .d{
-    margin: 0;
+    margin: 10px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: white;
+    height: 220px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 100px;
+    text-align: center;
 }
 .navigation_head{
     background-color: rgba(0, 0, 0, 0.84);
     height:36px;
     position:relative;
     margin-bottom: 1%;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 .container{
     position: absolute;
@@ -98,6 +112,7 @@ body {
     width: 99%;
     text-align: center;
     padding-top: 20px;
+    margin-top: 30px;
     margin-left: 5px;
     margin-right: 10px;
     margin-bottom: 30px;
