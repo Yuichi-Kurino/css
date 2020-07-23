@@ -8,6 +8,41 @@ body {
     margin-left: 5px;
     margin-top: 5px;
 }
+.title {
+    height: 5px;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.titleDes {
+    height: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 7px;
+}
+
+.img {
+    height: 200px;
+    width: 97%;
+    text-align: left;
+    background-color: darkgray;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.image_des {
+    height: 100px;
+    width: 95%;
+    margin-left: 20px;
+    font-size: 17px;
+}
 
 .c{
     height:200px;
@@ -49,38 +84,4 @@ body {
     color:white;
 }
 
-.title {
-    height: 5px;
-    width: 100%;
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-}
 
-.titleDes {
-    height: 10px;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    font-size: 7px;
-}
-
-.img {
-    height: 200px;
-    width: 97%;
-    text-align: left;
-    background-color: darkgray;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.image_des {
-    height: 100px;
-    width: 95%;
-    margin-left: 20px;
-    font-size: 17px;
-}
