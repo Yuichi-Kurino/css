@@ -1,5 +1,5 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .main_title {
@@ -7,6 +7,46 @@ body {
     width: 80%;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+.c{
+    height:200px;
+    width: 100%;
+    background: rgb(243, 243, 243);
+
+    position: relative;
+}
+
+.d{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.navigation_head{
+    background-color: rgba(0, 0, 0, 0.84);
+    height:36px;
+    position:relative;
+    margin-bottom: 1%;
+}
+.container{
+    position: absolute;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right{
+    float:right;
+    margin-right: 1%;
+    color:white;
+}
+
+.left{
+    float:left;
+    margin-left: 1%;
+    color:white;
 }
 
 .title {
@@ -44,5 +84,3 @@ body {
     margin-left: 20px;
     font-size: 17px;
 }
-
-
