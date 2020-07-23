@@ -1,14 +1,32 @@
+<<<<<<< HEAD
 html,body {
     margin:0;
+=======
+html, body {
+>>>>>>> 6bbf6a6080baaf737b6226fcbd1cc3888c8bb5c3
     font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 
+.main_thing {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.title_body{
+    float:left;
+}
 .main_title {
     height: 465px;
     width: 80%;
     margin-left: 5px;
     margin-top: 5px;
+<<<<<<< HEAD
     float:left;
+=======
+    background-color: white;
+>>>>>>> 6bbf6a6080baaf737b6226fcbd1cc3888c8bb5c3
 }
 .title {
     height: 5px;
@@ -58,24 +76,29 @@ html,body {
 .c{
     height:200px;
     width: 100%;
-    background: rgb(243, 243, 243);
-
     position: relative;
+    background-color: lightgray;
 }
 
 .d{
-    margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: white;
+    height: 220px;
+    width: 100%;
+    margin: 10px 100px 10px 5px;
+    text-align: center;
 }
 .navigation_head{
     background-color: rgba(0, 0, 0, 0.84);
     height:36px;
     position:relative;
     margin-bottom: 1%;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 .container{
     position: absolute;
@@ -124,8 +147,6 @@ html,body {
     width: 99%;
     text-align: center;
     padding-top: 20px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin: 30px 10px 30px 5px;
     background-color: darkgray;
 }
