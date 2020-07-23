@@ -7,6 +7,7 @@ body {
     width: 80%;
     margin-left: 5px;
     margin-top: 5px;
+    float:left;
 }
 .title {
     height: 5px;
@@ -28,7 +29,7 @@ body {
 
 .img {
     height: 200px;
-    width: 97%;
+    width: 95%;
     text-align: left;
     background-color: darkgray;
     margin-bottom: 15px;
@@ -83,5 +84,30 @@ body {
     margin-left: 1%;
     color:white;
 }
+
+.right_column{
+    float:left;
+    width:20%;
+    background-color:black;
+    height: 465px;
+}
+.about_me{
+    background: #040;
+    width:100%;
+    height:32%;
+    margin-bottom: 2%;
+}
+.popular_post{
+    background: #040;
+    width:100%;
+    height:32%;
+    margin-bottom: 2%;
+}
+.follow_me{
+    background: #040;
+    width:100%;
+    height:32%;
+}
+
 
 
